@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-09-17T01:48:57.102083+01:00 by Eclipse SUMO netedit 1.27.1
+<!-- generated on 2026-09-17T12:11:43.648059+01:00 by Eclipse SUMO netedit 1.27.1
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -213,10 +213,8 @@
         <lane id=":J105_0_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="13.67" length="10.54" shape="511798.89,5406598.57 511796.96,5406596.00 511795.65,5406594.21 511794.20,5406592.56 511791.87,5406590.36"/>
     </edge>
     <edge id=":J105_2" function="internal">
-        <lane id=":J105_2_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="6.32" length="9.74" shape="511803.20,5406588.69 511800.94,5406590.26 511799.89,5406592.10 511800.04,5406594.21 511801.41,5406596.60"/>
-    </edge>
-    <edge id=":J105_3" function="internal">
-        <lane id=":J105_3_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="8.69" length="11.98" shape="511803.20,5406588.69 511799.32,5406590.38 511796.14,5406591.22 511793.66,5406591.22 511791.87,5406590.36"/>
+        <lane id=":J105_2_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="9.47" length="14.36" shape="511803.20,5406588.69 511798.03,5406591.11 511794.07,5406592.59 511791.31,5406593.14 511789.75,5406592.76"/>
+        <lane id=":J105_2_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="8.69" length="11.98" shape="511803.20,5406588.69 511799.32,5406590.38 511796.14,5406591.22 511793.66,5406591.22 511791.87,5406590.36"/>
     </edge>
     <edge id=":J105_4" function="internal">
         <lane id=":J105_4_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="13.67" length="11.42" shape="511793.99,5406587.97 511796.23,5406590.08 511797.79,5406591.84 511799.30,5406593.82 511801.41,5406596.60"/>
@@ -233,12 +231,6 @@
     <edge id=":J106_1" function="internal">
         <lane id=":J106_1_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="13.67" length="5.36" shape="511807.42,5406579.93 511812.31,5406581.93"/>
         <lane id=":J106_1_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="13.67" length="5.36" shape="511806.11,5406582.85 511811.14,5406584.91"/>
-    </edge>
-    <edge id=":J106_3" function="internal">
-        <lane id=":J106_3_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="5.14" length="3.24" shape="511806.11,5406582.85 511807.73,5406583.96 511807.97,5406585.21"/>
-    </edge>
-    <edge id=":J106_4" function="internal">
-        <lane id=":J106_4_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone" speed="5.14" length="4.76" shape="511807.97,5406585.21 511806.83,5406586.60 511804.30,5406588.14"/>
     </edge>
     <edge id=":J106_w0" function="walkingarea">
         <lane id=":J106_w0_0" index="0" allow="pedestrian" speed="2.78" length="3.55" width="2.00" shape="511805.02,5406589.57 511805.91,5406591.36 511808.65,5406591.24 511809.38,5406589.38 511808.64,5406589.14 511807.91,5406589.01 511807.18,5406588.99 511806.45,5406589.07 511805.73,5406589.27"/>
@@ -2335,18 +2327,17 @@
         <request index="2" response="0000" foes="0000" cont="0"/>
         <request index="3" response="0000" foes="0000" cont="0"/>
     </junction>
-    <junction id="J105" type="priority" x="511795.00" y="5406591.00" incLanes="-E114_0 -E114_1 -E114_2 E115_0 E115_1 -E113_0" intLanes=":J105_0_0 :J105_0_1 :J105_2_0 :J105_3_0 :J105_4_0" shape="511793.54,5406602.76 511804.25,5406594.38 511803.76,5406593.41 511803.77,5406592.98 511803.95,5406592.58 511804.29,5406592.23 511804.81,5406591.91 511802.48,5406587.26 511799.70,5406588.18 511798.42,5406588.24 511797.22,5406588.02 511796.10,5406587.53 511795.05,5406586.77 511787.36,5406595.46 511788.86,5406596.84 511789.90,5406597.92 511790.69,5406598.89 511791.42,5406599.90 511792.31,5406601.13">
-        <request index="0" response="00000" foes="01000" cont="0"/>
-        <request index="1" response="00000" foes="01000" cont="0"/>
-        <request index="2" response="10000" foes="10000" cont="0"/>
+    <junction id="J105" type="priority" x="511795.00" y="5406591.00" incLanes="-E114_0 -E114_1 -E114_2 E115_0 E115_1 -E113_0" intLanes=":J105_0_0 :J105_0_1 :J105_2_0 :J105_2_1 :J105_4_0" shape="511793.54,5406602.76 511804.25,5406594.38 511803.76,5406593.41 511803.77,5406592.98 511803.95,5406592.58 511804.29,5406592.23 511804.81,5406591.91 511802.48,5406587.26 511799.70,5406588.18 511798.42,5406588.24 511797.22,5406588.02 511796.10,5406587.53 511795.05,5406586.77 511787.36,5406595.46 511788.86,5406596.84 511789.90,5406597.92 511790.69,5406598.89 511791.42,5406599.90 511792.31,5406601.13">
+        <request index="0" response="00000" foes="01100" cont="0"/>
+        <request index="1" response="00000" foes="01100" cont="0"/>
+        <request index="2" response="10011" foes="10011" cont="0"/>
         <request index="3" response="10011" foes="10011" cont="0"/>
         <request index="4" response="00000" foes="01100" cont="0"/>
     </junction>
-    <junction id="J106" type="priority" x="511807.00" y="5406585.00" incLanes="-E117_0 -E117_1 E116_0 E116_1 E116_2" intLanes=":J106_0_0 :J106_1_0 :J106_1_1 :J106_4_0" shape="511808.65,5406591.24 511813.63,5406578.58 511808.89,5406576.64 511805.46,5406584.31 511805.93,5406584.88 511805.76,5406585.25 511805.31,5406585.68 511804.59,5406586.17 511803.58,5406586.71 511805.91,5406591.36 511806.81,5406591.05 511807.27,5406590.99 511807.72,5406591.01 511808.18,5406591.09">
-        <request index="0" response="0000" foes="1000" cont="0"/>
-        <request index="1" response="0000" foes="0000" cont="0"/>
-        <request index="2" response="0000" foes="0000" cont="0"/>
-        <request index="3" response="0001" foes="0001" cont="1"/>
+    <junction id="J106" type="priority" x="511807.00" y="5406585.00" incLanes="-E117_0 -E117_1 E116_0 E116_1 E116_2" intLanes=":J106_0_0 :J106_1_0 :J106_1_1" shape="511808.65,5406591.24 511813.63,5406578.58 511808.89,5406576.64 511805.46,5406584.31 511805.93,5406584.88 511805.76,5406585.25 511805.31,5406585.68 511804.59,5406586.17 511803.58,5406586.71 511805.91,5406591.36 511806.81,5406591.05 511807.27,5406590.99 511807.72,5406591.01 511808.18,5406591.09">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
     </junction>
     <junction id="J11" type="priority" x="511444.00" y="5407274.00" incLanes="E12_0 -E13_0" intLanes=":J11_0_0 :J11_1_0" shape="511445.66,5407276.86 511443.98,5407270.69 511442.79,5407271.05 511442.40,5407271.24 511442.04,5407271.49 511441.64,5407271.84 511441.14,5407272.34">
         <request index="0" response="00" foes="00" cont="0"/>
@@ -2848,7 +2839,6 @@
     <junction id=":J1_12_0" type="internal" x="511523.82" y="5407238.30" incLanes=":J1_5_0 E5_0" intLanes=":J1_1_0 :J1_2_0 :J1_7_0 :J1_8_0 :J1_9_0 :J1_10_0"/>
     <junction id=":J1_13_0" type="internal" x="511517.46" y="5407241.34" incLanes=":J1_11_0 E0_0" intLanes=":J1_1_0 :J1_2_0 :J1_3_0 :J1_4_0 :J1_7_0 :J1_8_0"/>
     <junction id=":J102_10_0" type="internal" x="511855.65" y="5406650.16" incLanes=":J102_3_0 -E109_1" intLanes=":J102_0_0 :J102_5_0 :J102_5_1 :J102_7_0 :J102_8_0 :J102_9_0"/>
-    <junction id=":J106_4_0" type="internal" x="511807.97" y="5406585.21" incLanes=":J106_3_0 -E117_1" intLanes=":J106_0_0"/>
     <junction id=":J12_6_0" type="internal" x="511431.35" y="5407292.04" incLanes=":J12_1_0 -E51_0" intLanes=":J12_3_0 :J12_4_0 :J12_5_0"/>
     <junction id=":J16_6_0" type="internal" x="511574.28" y="5407440.01" incLanes=":J16_3_0 -E20_0" intLanes=":J16_0_0 :J16_1_0 :J16_5_0"/>
     <junction id=":J19_6_0" type="internal" x="511545.83" y="5407551.08" incLanes=":J19_1_0 -E95_0" intLanes=":J19_3_0 :J19_4_0 :J19_5_0"/>
@@ -3100,11 +3090,10 @@
     <connection from="E113" to="E116" fromLane="2" toLane="2" via=":J99_1_0" dir="l" state="M"/>
     <connection from="E114" to="E112" fromLane="1" toLane="1" via=":J104_2_0" dir="s" state="M"/>
     <connection from="E114" to="E112" fromLane="1" toLane="2" via=":J104_2_1" dir="s" state="M"/>
-    <connection from="E115" to="E114" fromLane="1" toLane="1" via=":J105_2_0" dir="r" state="m"/>
-    <connection from="E115" to="E113" fromLane="1" toLane="2" via=":J105_3_0" dir="l" state="m"/>
+    <connection from="E115" to="E113" fromLane="1" toLane="1" via=":J105_2_0" dir="l" state="m"/>
+    <connection from="E115" to="E113" fromLane="1" toLane="2" via=":J105_2_1" dir="l" state="m"/>
     <connection from="E116" to="E117" fromLane="1" toLane="1" via=":J106_1_0" dir="s" state="M"/>
     <connection from="E116" to="E117" fromLane="2" toLane="2" via=":J106_1_1" dir="s" state="M"/>
-    <connection from="E116" to="E115" fromLane="2" toLane="1" via=":J106_3_0" dir="l" state="m"/>
     <connection from="E117" to="-E111" fromLane="1" toLane="1" via=":J103_0_0" dir="l" state="M"/>
     <connection from="E117" to="-E111" fromLane="2" toLane="2" via=":J103_0_1" dir="l" state="M"/>
     <connection from="E12" to="E13" fromLane="0" toLane="0" via=":J11_0_0" dir="s" state="M"/>
@@ -3287,14 +3276,12 @@
     <connection from=":J104_2" to="E112" fromLane="1" toLane="2" dir="s" state="M"/>
     <connection from=":J105_0" to="E113" fromLane="0" toLane="1" dir="s" state="M"/>
     <connection from=":J105_0" to="E113" fromLane="1" toLane="2" dir="s" state="M"/>
-    <connection from=":J105_2" to="E114" fromLane="0" toLane="1" dir="r" state="M"/>
-    <connection from=":J105_3" to="E113" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":J105_2" to="E113" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":J105_2" to="E113" fromLane="1" toLane="2" dir="l" state="M"/>
     <connection from=":J105_4" to="E114" fromLane="0" toLane="1" dir="s" state="M"/>
     <connection from=":J106_0" to="E115" fromLane="0" toLane="1" dir="r" state="M"/>
     <connection from=":J106_1" to="E117" fromLane="0" toLane="1" dir="s" state="M"/>
     <connection from=":J106_1" to="E117" fromLane="1" toLane="2" dir="s" state="M"/>
-    <connection from=":J106_3" to="E115" fromLane="0" toLane="1" via=":J106_4_0" dir="l" state="m"/>
-    <connection from=":J106_4" to="E115" fromLane="0" toLane="1" dir="l" state="M"/>
     <connection from=":J11_0" to="E13" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":J11_1" to="-E12" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":J12_0" to="E51" fromLane="0" toLane="0" dir="s" state="M"/>
